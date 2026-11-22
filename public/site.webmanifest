@@ -1,0 +1,13 @@
+{
+  "name": "Deep Shekhar Halder Portfolio",
+  "short_name": "Deep Halder",
+  "description": "AI, computer vision, robotics and backend engineering portfolio.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["education", "portfolio", "technology"],
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }],
+  "background_color": "#111512",
+  "theme_color": "#111512"
+}
