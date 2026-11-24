@@ -329,9 +329,11 @@ function App() {
       <main id="top">
         <section className="hero-section">
           <div className="hero-copy">
-            <p className="eyebrow"><span className="status-dot" /> B.Tech CSE · <span className="role-cycle">{roles[roleIndex]}</span> · Kolkata, India</p>
+            <p className="eyebrow"><span className="status-dot" /> Available for opportunities · Kolkata, India</p>
+            <p className="hero-name">Deep Shekhar Halder</p>
             <h1>Building intelligent systems<br /><em>from pixels to production.</em></h1>
-            <p className="hero-text">I am Deep Shekhar Halder, a final-year B.Tech Computer Science and Engineering student at Adamas University with an 8.34 CGPA through six semesters. I work at the intersection of applied AI, computer vision, machine learning, robotics, IoT, embedded systems, cloud computing and backend engineering. My experience spans research-grade Python simulation, YOLO and ByteTrack vision pipelines, agentic and generative AI systems, REST and SQL/NoSQL APIs, Java and Spring Boot, Node.js and Express, React, Docker, AWS and edge-device integration with Arduino, ESP32 and Raspberry Pi. I turn complex research ideas into practical, measurable and user-focused systems through clean engineering, data-driven validation and open-source documentation.</p>
+            <p className="hero-role"><span className="role-cycle">{roles[roleIndex]}</span></p>
+            <p className="hero-text">Final-year B.Tech CSE student with an 8.34 CGPA, building practical systems across applied AI, computer vision, robotics, IoT, cloud and backend engineering. I combine Python, Java, JavaScript, React, Spring Boot, SQL/NoSQL databases and embedded hardware to turn research ideas into measurable, documented products.</p>
             <div className="hero-actions">
               <a className="primary-button" href="#projects">Explore my work <ArrowUpRight size={18} /></a>
               <a className="text-button" href="https://github.com/deepshekhar555" target="_blank" rel="noreferrer">GitHub ↗</a>
