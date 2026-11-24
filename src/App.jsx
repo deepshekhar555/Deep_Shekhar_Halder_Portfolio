@@ -335,7 +335,7 @@ function App() {
             <div className="hero-actions">
               <a className="primary-button" href="#projects">Explore my work <ArrowUpRight size={18} /></a>
               <a className="text-button" href="https://github.com/deepshekhar555" target="_blank" rel="noreferrer">GitHub ↗</a>
-              <a className="text-button" href="/Deep-Shekhar-Halder-CV.pdf" download><Download size={17} /> Download CV</a>
+              <a className="text-button" href={`${import.meta.env.BASE_URL}Deep-Shekhar-Halder-CV.pdf`} download><Download size={17} /> Download CV</a>
             </div>
           </div>
 
@@ -429,7 +429,7 @@ function App() {
         </section>
 
         <section className="section credential-section" id="certifications">
-          <div className="credential-copy"><p className="kicker">04 / Credentials</p><h2>Learning, continuously.</h2><p>Verified NPTEL, Oracle, HarvardX, AWS and focused training across AI, DSA, cloud and data.</p><div className="evidence-links"><a className="evidence-link" href="/All-Certificates-and-Results.pdf" target="_blank" rel="noreferrer">Certificates & results <ArrowUpRight size={16} /></a><a className="evidence-link" href="/Offer-Letters.pdf" target="_blank" rel="noreferrer">Offer letters <ArrowUpRight size={16} /></a><a className="evidence-link" href="/Deep-Shekhar-Halder-CV-Complete.pdf" target="_blank" rel="noreferrer">Complete CV <ArrowUpRight size={16} /></a><a className="evidence-link" href="/achnet-certificates-1.xlsx" download>Achievement workbook 1 <Download size={15} /></a><a className="evidence-link" href="/achnet-certificates-2.xlsx" download>Achievement workbook 2 <Download size={15} /></a></div></div>
+          <div className="credential-copy"><p className="kicker">04 / Credentials</p><h2>Learning, continuously.</h2><p>Verified NPTEL, Oracle, HarvardX, AWS and focused training across AI, DSA, cloud and data.</p><div className="evidence-links"><a className="evidence-link" href={`${import.meta.env.BASE_URL}All-Certificates-and-Results.pdf`} target="_blank" rel="noreferrer">Certificates & results <ArrowUpRight size={16} /></a><a className="evidence-link" href={`${import.meta.env.BASE_URL}Offer-Letters.pdf`} target="_blank" rel="noreferrer">Offer letters <ArrowUpRight size={16} /></a><a className="evidence-link" href={`${import.meta.env.BASE_URL}Deep-Shekhar-Halder-CV-Complete.pdf`} target="_blank" rel="noreferrer">Complete CV <ArrowUpRight size={16} /></a><a className="evidence-link" href={`${import.meta.env.BASE_URL}achnet-certificates-1.xlsx`} download>Achievement workbook 1 <Download size={15} /></a><a className="evidence-link" href={`${import.meta.env.BASE_URL}achnet-certificates-2.xlsx`} download>Achievement workbook 2 <Download size={15} /></a></div></div>
           <div className="credential-list">
             <article><span>95%</span><div><h3>NPTEL Elite</h3><p>Joy of Computing Using Python · Top 5%</p></div></article>
             <article><span>73%</span><div><h3>NPTEL Elite</h3><p>Data Structures and Algorithms Using Java</p></div></article>
