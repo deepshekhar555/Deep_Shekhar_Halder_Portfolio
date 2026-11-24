@@ -331,8 +331,8 @@ function App() {
           <div className="hero-copy">
             <p className="eyebrow"><span className="status-dot" /> Available for opportunities · Kolkata, India</p>
             <p className="hero-name">Deep Shekhar Halder</p>
-            <h1>Building intelligent systems<br /><em>from pixels to production.</em></h1>
             <p className="hero-role"><span className="role-cycle">{roles[roleIndex]}</span></p>
+            <h1>Building intelligent systems<br /><em>from pixels to production.</em></h1>
             <p className="hero-text">Final-year B.Tech CSE student with an 8.34 CGPA, building practical systems across applied AI, computer vision, robotics, IoT, cloud and backend engineering. I combine Python, Java, JavaScript, React, Spring Boot, SQL/NoSQL databases and embedded hardware to turn research ideas into measurable, documented products.</p>
             <div className="hero-actions">
               <a className="primary-button" href="#projects">Explore my work <ArrowUpRight size={18} /></a>
