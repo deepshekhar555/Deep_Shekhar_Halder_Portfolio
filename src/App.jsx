@@ -14,8 +14,8 @@ const projects = [
   { title: 'AirRoute Delhi', category: 'Systems', year: '2026', description: 'AQI safety dashboard linking PM2.5 and PM10 data to outdoor risk and exposure guidance.', tags: ['React', 'AQI', 'AWS', 'Data'], metric: 'AWS Hacks', repo: 'https://github.com/deepshekhar555/airroute-practice' },
   { title: 'Gait Twin', category: 'AI / Health', year: '2026', description: 'Browser-side gait and fall-risk digital twin using pose estimation and simulated embedded sensor streams.', tags: ['MediaPipe', 'React', 'Python', 'ESP32'], metric: 'Risk index 0–100', repo: 'https://github.com/deepshekhar555/Gait_Twin' },
   { title: 'Shield AI', category: 'ML / Data', year: '2026', description: 'Credit-card fraud detection system with classification models, REST API and mobile-first interface.', tags: ['XGBoost', 'FastAPI', 'SQLite', 'Razorpay'], metric: 'Fraud ML', repo: 'https://github.com/deepshekhar555/shield-ai' },
-  { title: 'RefinAI', category: 'AI / Science', year: '2026', description: 'Illustrative refinery energy and asset-health dashboard using public CCPP and C-MAPSS benchmarks, PCA outliers and conformal uncertainty.', tags: ['Python', 'Three.js', 'Chart.js', 'XGBoost'], metric: 'MAE 2.262 MW', repo: 'https://github.com/deepshekhar555/HP-Power-Lab-RefinAI' },
-  { title: 'NalaWatch', category: 'AI / Data', year: '2026', description: 'Urban flood-preparedness simulator with rainfall scenarios, ward-level indicators, timeline exercises and downloadable briefs.', tags: ['React', 'Vite', 'JavaScript', 'Firebase'], metric: 'Illustrative model', repo: 'https://github.com/deepshekhar555' },
+  { title: 'RefinAI', category: 'AI / Science', year: '2026', description: 'Illustrative refinery energy and asset-health dashboard using public CCPP and C-MAPSS benchmarks, PCA outliers and conformal uncertainty.', tags: ['Python', 'Three.js', 'Chart.js', 'XGBoost'], metric: 'MAE 2.262 · R² 0.967', repo: 'https://github.com/deepshekhar555/HP-Power-Lab-RefinAI' },
+  { title: 'NalaWatch', category: 'AI / Data', year: '2026', description: 'HackIndia AI-first flood-risk prototype combining rainfall scenarios, ward indicators, a timeline and downloadable tabletop briefs.', tags: ['React', 'Vite', 'JavaScript', 'Firebase'], metric: 'Illustrative model', repo: 'https://github.com/deepshekhar555' },
   { title: 'Email Job Scheduler', category: 'Full Stack', year: '2026', description: 'SDE assignment service for scheduled email delivery with Redis, BullMQ, Docker and MySQL.', tags: ['Express', 'BullMQ', 'Redis', 'Docker'], metric: '48-hour build', repo: 'https://github.com/deepshekhar555' },
   { title: 'DeployGuard AI', category: 'Systems', year: '2026', description: 'Self-hosted CI/CD platform with isolated builds, health checks, promotion and rollback.', tags: ['FastAPI', 'Docker', 'React', 'ML'], metric: 'Team project', repo: 'https://github.com/alwaysalearner1234/DeployGuardAI' },
   { title: 'EcoSense', category: 'AI / Science', year: '2026', description: 'Occupancy-aware building energy concept for 15–60 minute HVAC and lighting pre-conditioning.', tags: ['ML Forecasting', 'React', 'IoT'], metric: 'Yuva Yodha', repo: 'https://github.com/alwaysalearner1234' },
@@ -27,6 +27,9 @@ const projects = [
   { title: 'JARVIS Assistant', category: 'AI / Data', year: '2026', description: 'Python voice and task assistant using Groq API services.', tags: ['Python', 'Groq API', 'Automation'], metric: 'AI Assistant', repo: 'https://github.com/deepshekhar555/jarvis-v3' },
   { title: 'Multipurpose Robot Car', category: 'Embedded', year: '2026', description: 'Arduino Uno robot with line following, obstacle avoidance and Bluetooth control.', tags: ['Arduino Uno', 'Sensors', 'Bluetooth'], metric: 'Robotics', repo: 'https://github.com/deepshekhar555' },
   { title: 'Cloud Computing Labs', category: 'Systems', year: '2026', description: 'Virtualized networking labs covering TCP chat, SDN topologies and Ryu/Open vSwitch.', tags: ['VirtualBox', 'Mininet', 'SDN', 'Ryu'], metric: 'Cloud Lab', repo: 'https://github.com/deepshekhar555/Cloud-Computing-Labs-2026' },
+  { title: 'AI Resume Optimizer', category: 'AI / Data', year: '2026', description: 'LLM-based resume and ATS compatibility tool that recommends improvements for student career readiness.', tags: ['LLM', 'GenAI', 'ATS', 'React'], metric: 'AWS Internship', repo: 'https://github.com/deepshekhar555' },
+  { title: 'Campus RAG Navigator', category: 'AI / Data', year: '2026', description: 'Campus knowledge assistant using retrieval-augmented generation over indexed documents, with development underway.', tags: ['RAG', 'LLM', 'Vector Search', 'Python'], metric: 'In progress', repo: 'https://github.com/deepshekhar555' },
+  { title: 'Edge Parking Detector', category: 'Systems', year: '2027', description: 'Planned edge-computer-vision system for real-time campus parking-slot occupancy detection.', tags: ['YOLO', 'Edge AI', 'IoT', 'Smart Campus'], metric: 'Planned', repo: 'https://github.com/deepshekhar555' },
 ]
 
 const experiences = [
@@ -37,7 +40,8 @@ const experiences = [
   { period: 'Jun — Jul 2026', role: 'Data Science Intern', company: 'Saiket Systems', detail: 'Remote internship; churn analysis with EDA, segmentation and Gradient Boosting.' },
   { period: 'Jun — Aug 2026', role: 'AI Fundamentals & MERN Summership', company: 'IIT Ropar · NPTEL', detail: 'AI Fundamentals and MERN Stack work under Prof. Sudarshan Iyengar.' },
   { period: 'Nov 15 — 18, 2026', role: 'Data Science & ML Intern', company: 'CareerSwami', detail: 'Virtual internship completion certificate.' },
-  { period: '2026', role: 'Core Java, DSA & SQL Programme', company: 'Qspider, Adamas University', detail: 'Completed 240 hours of intensive technical training.' },
+  { period: 'Jan 2026', role: 'Core Java, DSA & SQL Programme', company: 'Qspider, Adamas University', detail: 'Completed a 240-hour in-person intensive programme in Java, DSA and SQL.' },
+  { period: 'Nov 2026', role: 'Intern', company: 'ReDySim Internship 2026 · Team 09', detail: 'Team member; peer-reviewed Teams 10 and 05 as part of the cohort assessment.' },
 ]
 
 const achievements = [
@@ -61,6 +65,12 @@ const achievements = [
   ['atomQUEST 2026', 'Team entry', 'Track 2 · BioTwin Labs'],
   ['Odoo x Adamas', 'Team of 3', 'Boundary HRMS · Right-to-Disconnect'],
   ['Odoo x NMIT', 'Hackathon entry', 'Dayflow · AI-powered HR management'],
+  ['AI Gladiators', 'Round 2 entry', 'Coding Circuit'],
+  ['NEC 2026', 'Team entry', 'Brand Your E-Cell · team Adamite'],
+  ['VOYAGEHACK 4.0', 'Registered', 'TBO.com · team WhiteHack'],
+  ['Scaler x Wispr Flow', 'Registered', 'Voice-First hackathon idea: Yojana Awaaz'],
+  ['2nd APCTT Hackathon', 'Registered', 'AI for Technology Readiness · Techfest IIT Bombay'],
+  ['Tata Young Social Innovator', 'Registered', 'Internshala challenge'],
 ]
 
 function HeroScene() {
@@ -419,7 +429,7 @@ function App() {
         </section>
 
         <section className="section credential-section" id="certifications">
-          <div className="credential-copy"><p className="kicker">04 / Credentials</p><h2>Learning, continuously.</h2><p>Verified NPTEL, Oracle, HarvardX, AWS and focused training across AI, DSA, cloud and data.</p><div className="evidence-links"><a className="evidence-link" href="/All-Certificates-and-Results.pdf" target="_blank" rel="noreferrer">Certificates & results <ArrowUpRight size={16} /></a><a className="evidence-link" href="/Offer-Letters.pdf" target="_blank" rel="noreferrer">Offer letters <ArrowUpRight size={16} /></a><a className="evidence-link" href="/achnet-certificates-1.xlsx" download>Achievement workbook 1 <Download size={15} /></a><a className="evidence-link" href="/achnet-certificates-2.xlsx" download>Achievement workbook 2 <Download size={15} /></a></div></div>
+          <div className="credential-copy"><p className="kicker">04 / Credentials</p><h2>Learning, continuously.</h2><p>Verified NPTEL, Oracle, HarvardX, AWS and focused training across AI, DSA, cloud and data.</p><div className="evidence-links"><a className="evidence-link" href="/All-Certificates-and-Results.pdf" target="_blank" rel="noreferrer">Certificates & results <ArrowUpRight size={16} /></a><a className="evidence-link" href="/Offer-Letters.pdf" target="_blank" rel="noreferrer">Offer letters <ArrowUpRight size={16} /></a><a className="evidence-link" href="/Deep-Shekhar-Halder-CV-Complete.pdf" target="_blank" rel="noreferrer">Complete CV <ArrowUpRight size={16} /></a><a className="evidence-link" href="/achnet-certificates-1.xlsx" download>Achievement workbook 1 <Download size={15} /></a><a className="evidence-link" href="/achnet-certificates-2.xlsx" download>Achievement workbook 2 <Download size={15} /></a></div></div>
           <div className="credential-list">
             <article><span>95%</span><div><h3>NPTEL Elite</h3><p>Joy of Computing Using Python · Top 5%</p></div></article>
             <article><span>73%</span><div><h3>NPTEL Elite</h3><p>Data Structures and Algorithms Using Java</p></div></article>
@@ -441,7 +451,7 @@ function App() {
         <section className="section skills-section">
           <p className="kicker">05 / Technical stack</p>
           <div className="skills-grid">
-            {[['Programming languages', 'C · C++ · Java · Python · JavaScript · TypeScript · SQL · HTML · CSS'], ['Databases & Data', 'DBMS · SQL · MySQL · PostgreSQL · MongoDB · SQLite · Pandas · Scikit-learn'], ['Web & Backend', 'HTML · CSS · React · Node.js · Express · Spring Boot · FastAPI · REST APIs · Tailwind CSS'], ['AI & Vision', 'PyTorch · TensorFlow · YOLO · ByteTrack · OpenCV · LangChain · Gemini · Groq · OpenAI Agents SDK'], ['Embedded & Cloud', 'Arduino · ESP32 · Raspberry Pi · MQTT · Docker · AWS · VirtualBox · Mininet · Render'], ['Core foundations', 'DSA · OOP · DBMS · OS · Computer Networks · Software Engineering · Git/GitHub'], ['Tools & Platforms', 'VS Code · Postman · Docker Compose · GitHub Actions · Firebase · Vite · XGBoost · MediaPipe'], ['Languages spoken', 'Bengali · English · Hindi']].map(([name, skills]) => <article key={name}><h3>{name}</h3><p>{skills}</p></article>)}
+            {[['Programming languages', 'C · C++ · Java · Python · JavaScript · TypeScript · SQL · HTML · CSS'], ['Databases & Data', 'DBMS · SQL · MySQL · PostgreSQL · MongoDB · SQLite · Pandas · Scikit-learn'], ['Web & Backend', 'HTML · CSS · React · Node.js · Express · Spring Boot · FastAPI · REST APIs · Tailwind CSS'], ['AI & Vision', 'PyTorch · TensorFlow · YOLO · ByteTrack · OpenCV · LangChain · Gemini · Groq · MCP · n8n'], ['Embedded & Cloud', 'Arduino · ESP32 · Raspberry Pi · I2C · MQTT · Linux · Docker · AWS · VirtualBox · Mininet'], ['Core foundations', 'DSA · OOP · DBMS · OS · Computer Networks · Software Engineering · Git/GitHub'], ['Tools & Platforms', 'VS Code · Postman · Docker Compose · GitHub Actions · Firebase · Vite · TinkerCAD · Fusion 360'], ['Languages spoken', 'Bengali · English · Hindi']].map(([name, skills]) => <article key={name}><h3>{name}</h3><p>{skills}</p></article>)}
           </div>
         </section>
 
